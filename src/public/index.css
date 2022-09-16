@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root {
+    --backg-color: #1e1c1c;
+    --secondg-color: #da2d2d;
+    --tfooter-color: #ff6060;
+}
+
+html,
+body {
+    background-color: var(--backg-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 25px;
+    background-color: var(--secondg-color);
+}
+
+header a {
+    color: white !important;
+}
+
+footer {
+    background-color: var(--secondg-color);
+    color: white;
+    padding: 40px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+    color: transparent !important;
+    border-color: transparent !important;
+    filter: invert();
+}
+
+.footer-title {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--tfooter-color);
+}
+
+ul {
+    list-style: none;
+    float: left;
+}
+
+.list-info li a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:1000px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-info {
+        margin: 15px 50px 0 0;
+    }
+}

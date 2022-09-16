@@ -1,0 +1,16 @@
+{
+  "name": "streaming",
+  "version": "1.0.0",
+  "description": "Free streaming template.",
+  "main": "app.js",
+  "scripts": {
+    "s": "nodemon ."
+  },
+  "keywords": [],
+  "author": "Vayd0",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
